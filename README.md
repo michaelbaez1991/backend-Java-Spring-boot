@@ -20,7 +20,7 @@ curl --location --request GET 'http://localhost:8080/backend/globalTech'
 ###### Guardar nuevos registros (POST)
 curl --location --request POST 'http://localhost:8080/backend/globalTech' \
 --header 'Content-Type: application/json' \
---data-raw '{"nombre":"Michael","apellido":"Mendoza","email":"michael.baez.mendoza2016@gmail.com","profesion":"Ingeniero De sistemas"}'
+--data-raw '{"nombre":"Andres","apellido":"Carrizo","email":"andresCa2016@gmail.com","profesion":"Ingeniero De sistemas"}'
 
 ###### Consulta un registro por ID (GET)
 curl --location --request GET 'http://localhost:8080/backend/globalTech/21'
