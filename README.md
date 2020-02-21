@@ -2,7 +2,7 @@
  Desarrollo de CRUD en java + spring boot 
 
 # Instrucciones 
-- Clonar el proyecto: git clone https://github.com/michaelbaez1991/backend.git
+- Clonar el proyecto: git clone https://github.com/michaelbaez1991/backend-Java-Spring-boot.git
 - Abrir el proyecto en netbeans o eclipse
 - Ejecutar el proyecto para levantar el servidor
 - Se iniciara la aplicacion en el puerto :8080, bajo el path '/backend' => http://localhost:8080/backend
