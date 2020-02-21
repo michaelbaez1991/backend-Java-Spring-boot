@@ -1,11 +1,10 @@
 # Backend Java Spring + Boot
  Desarrollo de CRUD en java + spring boot 
 
-# Archivo .jar
- target > backend-0.0.1-SNAPSHOT.jar
-
 # Instrucciones 
-- Ejecutar archivo .jar
+- Clonar el proyecto: git clone https://github.com/michaelbaez1991/backend.git
+- Abrir el proyecto en netbeans o eclipse
+- Ejecutar el proyecto para levantar el servidor
 - Se iniciara la aplicacion en el puerto :8080, bajo el path '/backend' => http://localhost:8080/backend
 - Podemos ejecutar una peticion tipo get de forma manual para validar que la aplicacion esta funcionando correcta => http://localhost:8080/backend/globalTech
 - Una vez iniciada la aplicacion backend de Java, necesitaremos levantar el front-end previo de angular (Angular9-Spotify) en el puerto por defecto de angular :4200.
