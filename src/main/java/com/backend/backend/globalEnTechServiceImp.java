@@ -31,7 +31,12 @@ public class globalEnTechServiceImp implements globalEnTechService{
 
 	@Override
 	public globalEnTech delete(int id) {
-		throw new UnsupportedOperationException("No support yet. ");
+		globalEnTech g = repositorio.findById(id);
+		if(g != null) {
+			
+			repositorio.delete(g);
+		}		
+		return g;
 	}
 	
 }
